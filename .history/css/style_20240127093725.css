@@ -120,9 +120,4 @@ body {
   font-style: italic;
   font-weight: 300;
 }
-.header__phone{
-  padding-left: 40px;
-}
-.header__phone::before{
-  
-}
+.hader

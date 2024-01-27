@@ -99,7 +99,7 @@ body {
   transition: all .6s;
 }
 .menu__link:hover {
-  text-decoration: underline;
+  td
   /* border-bottom: 1px solid var(--black); */
 }
 
@@ -119,10 +119,4 @@ body {
   font-size: 56px;
   font-style: italic;
   font-weight: 300;
-}
-.header__phone{
-  padding-left: 40px;
-}
-.header__phone::before{
-  
 }

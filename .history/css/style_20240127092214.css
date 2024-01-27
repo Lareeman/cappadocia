@@ -12,33 +12,13 @@
   font-display: swap;
 }
 @font-face {
-  font-family: 'RobotoCondensed-Light';
-  src: url('../fonts/RobotoCondensed-Light.woff2');
-  src: url('../fonts/RobotoCondensed-Light.woff2') format('woff2'),
-     url('../fonts/RobotoCondensed-Light.woff') format('woff');
-     
+  font-family: 'Balqis';
+  src: url('../fonts/balqis.woff2');
+  src: url('../fonts/balqis.woff2') format('woff2'),
+     url('../fonts/balqis.woff') format('woff');
+     RobotoCondensed-Light
 
   font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'RobotoCondensed-LightItalic';
-  src: url('../fonts/RobotoCondensed-LightItalic.woff2');
-  src: url('../fonts/RobotoCondensed-LightItalic.woff2') format('woff2'),
-     url('../fonts/RobotoCondensed-LightItalic.woff') format('woff');
-  font-style: italic;
-  font-weight: 300;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'RobotoCondensed-Regular';
-  src: url('../fonts/RobotoCondensed-Regular.woff2');
-  src: url('../fonts/RobotoCondensed-Regular.woff2') format('woff2'),
-     url('../fonts/RobotoCondensed-Regular.woff') format('woff');
-     
-   
-  font-style: 400;
   font-weight: 300;
   font-display: swap;
 }
@@ -63,7 +43,7 @@ ul {
 
 body {
   color: var(--black);
-  font-family: 'RobotoCondensed-Light';
+  font-family: "Roboto Condensed";
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
@@ -89,7 +69,6 @@ body {
   align-items: center;
   font-size: 24px;
   font-weight: 400;
-  font-family: 'RobotoCondensed-Regular';
 }
 .menu__list {
   display: flex;
@@ -99,8 +78,7 @@ body {
   transition: all .6s;
 }
 .menu__link:hover {
-  text-decoration: underline;
-  /* border-bottom: 1px solid var(--black); */
+  border-bottom: 1px solid var(--black);
 }
 
 .header__title {
@@ -119,10 +97,4 @@ body {
   font-size: 56px;
   font-style: italic;
   font-weight: 300;
-}
-.header__phone{
-  padding-left: 40px;
-}
-.header__phone::before{
-  
 }

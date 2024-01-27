@@ -89,7 +89,7 @@ body {
   align-items: center;
   font-size: 24px;
   font-weight: 400;
-  font-family: 'RobotoCondensed-Regular';
+  font-family: 'RobotoCondensed-Regular';А
 }
 .menu__list {
   display: flex;
@@ -99,8 +99,7 @@ body {
   transition: all .6s;
 }
 .menu__link:hover {
-  text-decoration: underline;
-  /* border-bottom: 1px solid var(--black); */
+  border-bottom: 1px solid var(--black);
 }
 
 .header__title {
@@ -119,10 +118,4 @@ body {
   font-size: 56px;
   font-style: italic;
   font-weight: 300;
-}
-.header__phone{
-  padding-left: 40px;
-}
-.header__phone::before{
-  
 }
