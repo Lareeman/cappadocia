@@ -1,0 +1,236 @@
+:root {
+  --black: #000;
+  --gold: #E2AB3F;
+}
+
+@font-face {
+  font-family: 'Balqis';
+  src: url('../fonts/balqis.woff2');
+  src: url('../fonts/balqis.woff2') format('woff2'),
+    url('../fonts/balqis.woff') format('woff');
+
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Light';
+  src: url('../fonts/RobotoCondensed-Light.woff2');
+  src: url('../fonts/RobotoCondensed-Light.woff2') format('woff2'),
+    url('../fonts/RobotoCondensed-Light.woff') format('woff');
+
+
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-LightItalic';
+  src: url('../fonts/RobotoCondensed-LightItalic.woff2');
+  src: url('../fonts/RobotoCondensed-LightItalic.woff2') format('woff2'),
+    url('../fonts/RobotoCondensed-LightItalic.woff') format('woff');
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Regular';
+  src: url('../fonts/RobotoCondensed-Regular.woff2');
+  src: url('../fonts/RobotoCondensed-Regular.woff2') format('woff2'),
+    url('../fonts/RobotoCondensed-Regular.woff') format('woff');
+
+
+  font-style: 400;
+  font-weight: 300;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  color: var(--black);
+  font-family: 'RobotoCondensed-Light';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.header {
+  background-image: url("../images/header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  min-height: 100vh;
+  margin-bottom: 200px;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.page-section {
+  margin-bottom: 200px;
+}
+
+.title {
+  color: var(--gold);
+  font-family: Balqis;
+  font-size: 96px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+
+.title span {
+  line-height: 28px;
+  font-size: 24px;
+  color: var(--black);
+  font-family: 'RobotoCondensed-LightItalic';
+  display: block;
+  margin-top: -30px;
+  margin-left: 185px;
+}
+
+.header__top {
+  padding: 72px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'RobotoCondensed-Regular';
+}
+
+.menu__list {
+  display: flex;
+  gap: 0 52px;
+}
+
+.menu__link {
+  transition: all .6s;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+  /* border-bottom: 1px solid var(--black); */
+}
+
+.header__title {
+  text-align: center;
+  color: var(--black);
+  font-family: "Balqis", serif;
+  font-size: 250px;
+  font-weight: 400;
+}
+
+.header__title span {
+  text-align: right;
+  margin-top: -6%;
+  margin-right: 8%;
+  display: block;
+  font-family: 'RobotoCondensed-LightItalic';
+  font-size: 56px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.header__phone {
+  padding-left: 40px;
+  position: relative;
+}
+
+.header__phone::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 0;
+  background-image: url('../images/phone-icon.svg');
+}
+/* ===================== */
+
+
+.fairy__inner {
+  position: relative;
+}
+.fairy__container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.fairy__slider {
+  width: 50%;
+}
+.slick-btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  z-index: 2;
+  cursor: pointer;
+}
+.slick-prev {
+  left: 0;
+}
+.slick-next {
+  right: 0px;
+}
+.fairy__item {}
+
+.fairy__content {
+  
+}
+
+
+.fairy__body {
+  width: 50%;
+  margin-left: auto;
+  padding-left: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+
+}
+
+.fairy__text {
+ 
+}
+
+.fairy__body-title {
+  
+  font-weight: 400;
+}
+
+.fairy__list {
+
+}

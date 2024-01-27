@@ -1,0 +1,3 @@
+$(function(){
+$('.fairy__s')
+});
