@@ -159,7 +159,6 @@ body {
 }
 
 .fairy__title span {
-  display: block;
   color: var(--black);
   font-family: 'RobotoCondensed-LightItalic';
   font-size: 24px;

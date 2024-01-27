@@ -157,14 +157,13 @@ body {
 .fairy__title {
   margin-bottom: 100px;
 }
-
-.fairy__title span {
-  display: block;
+.fairy__title span{
   color: var(--black);
-  font-family: 'RobotoCondensed-LightItalic';
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 300;
+font-family: "Roboto Condensed",sa;
+font-size: 24px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
 }
 
 .title {
